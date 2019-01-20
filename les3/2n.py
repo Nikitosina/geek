@@ -9,7 +9,6 @@ def sort_to_max(origin_list):
         for j in range(len(origin_list) - 1):
             if origin_list[j] > origin_list[j + 1]:
                 origin_list[j], origin_list[j + 1] = origin_list[j + 1], origin_list[j]
-
     return origin_list
 
 
