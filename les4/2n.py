@@ -42,3 +42,9 @@ for i in range(len(line_2)):
         pass
 
 print(ans)
+
+import re
+
+ans2 = re.findall(r'[a-z]{2}([A-Z]+)[A-Z]{2}', line_2)
+
+print(ans2)
