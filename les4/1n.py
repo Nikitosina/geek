@@ -34,5 +34,5 @@ print(ans)
 
 import re
 
-ans2 = re.split(r'[QWERTYUIOPLKJHGFDSAZXCVBNM]+', line)
+ans2 = re.split(r'[A-Z]+', line)
 print(ans2)
