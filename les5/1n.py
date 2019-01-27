@@ -18,9 +18,7 @@ from easy import mk_dir, ch_dir, del_dir, walk_dir
 
 text = '1. Перейти в папку\n2. Просмотреть содержимое текущей папки\n3. Удалить папку\n4. Создать папку\n\n'
 
-run = True
-
-while run:
+while True:
     inp = input(text)
     if inp == '2':
         walk_dir()
@@ -32,5 +30,4 @@ while run:
             del_dir(name)
         elif inp == '4':
             mk_dir(name)
-
     print('\n')
