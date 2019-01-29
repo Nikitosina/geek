@@ -22,4 +22,4 @@ class Triangle:
 
 
 t = Triangle((1, 1), (4, 1), (1, 5))
-print('a: {}\nb: {}\nc: {}\nP: {}\nS: {}\nh(a): {}'.format(t.a, t.b, t.c, t.perimeter(), t.square(), t.h(t.c)))1
+print('a: {}\nb: {}\nc: {}\nP: {}\nS: {}\nh(a): {}'.format(t.a, t.b, t.c, t.perimeter(), t.square(), t.h(t.c)))
